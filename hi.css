@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e0033, #3d0066);
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff4ecb;
+}
+
+.hero {
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  background: linear-gradient(90deg, #ff4ecb, #c471ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.player-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.player-card {
+  background: #2b004d;
+  padding: 40px;
+  border-radius: 20px;
+  width: 420px;
+  box-shadow: 0 15px 40px rgba(255, 78, 203, 0.4);
+  transition: 0.5s;
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.song-desc {
+  font-size: 14px;
+  margin: 10px 0 20px;
+  color: #ddd;
+}
+
+.play-button {
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  border-radius: 50%;
+  border: none;
+  background: #ff4ecb;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+  background: #c471ff;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #ff4ecb;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.songs-section {
+  padding: 40px;
+}
+
+.song-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background: #ff4ecb;
+  color: white;
+  cursor: pointer;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+.song-btn:hover {
+  background: #c471ff;
+}

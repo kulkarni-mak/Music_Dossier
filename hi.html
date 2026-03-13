@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SoundSculpt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="logo">SoundSculpt</div>
+</nav>
+
+<section class="hero">
+  <h1>My Music Streaming</h1>
+ 
+</section>
+
+<section class="player-section">
+
+  <div class="player-card">
+
+    <img id="moviePoster" src="sunny.jpg" class="movie-poster">
+
+    <h2 id="songName">Bijuria</h2>
+    <p id="songSinger">Singer: Sonu Nigam</p>
+    <p id="songMovie">Movie: Sunny Sanskari Ki Tulsi Kumari (2023)</p>
+    <p id="songDesc" class="song-desc">
+      A lively celebratory track blending folk rhythm with modern energy.
+    </p>
+
+    <button id="playBtn" class="play-button">▶</button>
+
+    <a id="downloadLink"
+       class="download-btn"
+       href="Bijuria Sunny Sanskari Ki Tulsi Kumari 320 Kbps.mp3"
+       download>
+      Download Song
+    </a>
+
+    <audio id="audio">
+      <source src="Bijuria Sunny Sanskari Ki Tulsi Kumari 320 Kbps.mp3" type="audio/mp3">
+    </audio>
+
+  </div>
+
+</section>
+
+<section class="songs-section">
+  <h2>Select a Track</h2>
+  <div class="song-buttons">
+    <button class="song-btn">Bijuria</button>
+    <button class="song-btn">Panwadi</button>
+    <button class="song-btn">Ishq Jalakar</button>
+    <button class="song-btn">Title Track Dhurandhar</button>
+    <button class="song-btn">Raanjhan</button>
+    <button class="song-btn">Slow Motion Angreza</button>
+    <button class="song-btn">Maston Ka Jhund</button>
+    <button class="song-btn">Title Track Saiyaara</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
